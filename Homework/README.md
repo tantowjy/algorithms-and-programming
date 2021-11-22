@@ -30,3 +30,24 @@ Output: −2 3 1 4 5 9 14 23</p>
 <p>Buatlah fungsi untuk mengecek suatu bilangan integer tersebut prima atau tidak. Output dari fungsi adalah 0 jika input adalah bilangan prima, dan 1 jika input bukan bilangan prima. Kemudian, dengan input bilangan asli n.Tulis semua bilangan prima yang kurang dari sama dengan n. Gunakan break dalam looping untuk mempercepat proses! <br>
 Contoh: n=100 <br>
 Output: 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97</p>
+
+## HW 4
+<h4>Baris String</h4>
+<p>Dengan input string s. Tampilkan barisan string tersebut sehingga seperti ... <br>
+Contoh: s = ”Kodok” <br>
+Output: <br>
+K <br>
+Ko <br>
+Kod <br>
+Kodo <br>
+Kodok <br>
+Kodo <br>
+Kod <br>
+Ko <br>
+K</p>
+
+<h4>Transpose Matrix</h4>
+<p>Masukan jumlah baris nr dan jumlah kolum nc dalam bilangan bulat. Kemudian inputkan element matrixnya satu per satu. Keluarkan transpose dari matrix yang di inputkan</p>
+
+<h4>Perkalian Matrix</h4>
+<p>Masukan jumlah baris nr1 dan jumlah kolum nc1 dalam bilangan bulat untuk matrix pertama. Kemudian, masukan jumlah baris nr2 dan jumlah kolum nc2 dalam bilangan bulat untuk matrix kedua. Keluarkan hasil perkalian matrix dari dua matrix yang diinput.</p>
