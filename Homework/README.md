@@ -51,3 +51,6 @@ K</p>
 
 <h4>Perkalian Matrix</h4>
 <p>Masukan jumlah baris nr1 dan jumlah kolum nc1 dalam bilangan bulat untuk matrix pertama. Kemudian, masukan jumlah baris nr2 dan jumlah kolum nc2 dalam bilangan bulat untuk matrix kedua. Keluarkan hasil perkalian matrix dari dua matrix yang diinput.</p>
+
+## HW 5
+[See homework 5 problems](/Homework/HW5/HW5-Problems.pdf)
