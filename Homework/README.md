@@ -54,3 +54,6 @@ K</p>
 
 ## HW 5
 [See homework 5 problems](/Homework/HW5/HW5-Problems.pdf)
+
+## HW 6
+[See homework 6 problem](/Homework/HW6/HW6-Problem.pdf)
