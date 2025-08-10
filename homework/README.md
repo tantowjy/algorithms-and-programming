@@ -53,7 +53,7 @@ K</p>
 <p>Masukan jumlah baris nr1 dan jumlah kolum nc1 dalam bilangan bulat untuk matrix pertama. Kemudian, masukan jumlah baris nr2 dan jumlah kolum nc2 dalam bilangan bulat untuk matrix kedua. Keluarkan hasil perkalian matrix dari dua matrix yang diinput.</p>
 
 ## HW 5
-[See homework 5 problems](/Homework/HW5/HW5-Problems.pdf)
+[See homework 5 problems](/homework/homework_5/homework_5_problems.pdf)
 
 ## HW 6
-[See homework 6 problem](/Homework/HW6/HW6-Problem.pdf)
+[See homework 6 problem](/homework/homework_6/homework_6_problem.pdf)
