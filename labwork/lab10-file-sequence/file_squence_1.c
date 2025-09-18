@@ -1,20 +1,17 @@
-//Program writing dan reading biner untuk pendataan pesanan
+// Program writing dan reading biner untuk pendataan pesanan
 #include <stdio.h>
-struct
-{
+struct {
     char name[50], bentuk[50];
     int harga;
 } a;
 int i, n;
-void main()
-{
+void main() {
     FILE *pesanan;
-    pesanan = fopen("List Pesanan.dat", "wb"); //(A). Tentukan modenya 
+    pesanan = fopen("List Pesanan.dat", "wb");  //(A). Tentukan modenya
     printf("Banyak pesanan : ");
     scanf("%d", &n);
     getchar();
-    for (i = 1; i <= n; i++)
-    {
+    for (i = 1; i <= n; i++) {
         printf("%d.\tNama Pemesan\t: ", i);
         gets(a.name);
         printf("\tBentuk bolu\t: ");
@@ -22,14 +19,16 @@ void main()
         printf("\tHarga\t \t: ");
         scanf("%d", &a.harga);
         getchar();
-        fwrite (&a, sizeof(a), 1, pesanan); //Tentukan (B). sintaks  dan (C). lengkapi 
+        fwrite(&a, sizeof(a), 1,
+               pesanan);  // Tentukan (B). sintaks  dan (C). lengkapi
     }
-    fclose(pesanan); //(D). Lengkapi sintaksnya
+    fclose(pesanan);  //(D). Lengkapi sintaksnya
 
- printf("------OUTPUT READING BINER-----\n\n");
+    printf("------OUTPUT READING BINER-----\n\n");
     int i = 1;
-    pesanan = fopen("List Pesanan.dat", "rb"); //(E). Tentukan mode nya
-    while (fread(&a, sizeof(a), 1, pesanan) == 1) // Tentukan (F). sintaks dan (G). variabel read biner
+    pesanan = fopen("List Pesanan.dat", "rb");  //(E). Tentukan mode nya
+    while (fread(&a, sizeof(a), 1, pesanan) ==
+           1)  // Tentukan (F). sintaks dan (G). variabel read biner
     {
         printf("%d.\tNama Pemesan\t: %s\n", i, a.name);
         printf("\tBentuk bolu\t: %s\n", a.bentuk);

@@ -2,7 +2,8 @@
 #include <string.h>
 
 int main() {
-    char* hari[] = {"Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"};
+    char* hari[] = {"Minggu", "Senin", "Selasa", "Rabu",
+                    "Kamis",  "Jumat", "Sabtu"};
     char day[10];
     int n, i, index = -1;
 

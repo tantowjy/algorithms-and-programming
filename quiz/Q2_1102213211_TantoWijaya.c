@@ -1,19 +1,17 @@
 #include <stdio.h>
 
-int main(){
+int main() {
+    int i, j, n;
 
-  int i,j,n;
+    printf("Masukkan nilai n = ");
+    scanf("%d", &n);
 
-  printf("Masukkan nilai n = ");
-  scanf("%d", &n);
-
-  for(i=1; i<=n; i++){
-    for(j=1; j<=n; j++){
-      printf("%d\t", i*j);
+    for (i = 1; i <= n; i++) {
+        for (j = 1; j <= n; j++) {
+            printf("%d\t", i * j);
+        }
+        printf("\n");
     }
-    printf("\n");
-  }
 
-  return 0;
-
+    return 0;
 }
